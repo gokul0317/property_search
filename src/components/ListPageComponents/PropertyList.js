@@ -22,14 +22,15 @@ function PropertyList({ propertyReducer, setSelectedProperty }) {
 const ListConatiner = styled.div`
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: flex-start;
 `;
 
 const NoItem = styled.div`
+    width: 100%;
     text-align: center;
-    
+    font-size: 16px;
+    font-weight: bold;
 `
 
 const mapStateToProps = ({ propertyReducer }) => {

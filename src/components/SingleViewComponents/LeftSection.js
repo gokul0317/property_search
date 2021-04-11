@@ -23,17 +23,21 @@ const ImageGalleryConatainer = styled.div`
 
 const MainImage = styled.img`
     width: 95%;
+    background-attachment: cover;
     :hover {
         opacity: .4;
     }
+    transition: all ease-in;
 `;
 
 const SubImage = styled.img`
     width: 47%;
     place-items: space-evenly;
+    background-attachment: cover;
     :hover {
         opacity: .4;
     }
+    transition: all ease-in;
 `;
 
 const SubImageConatainer = styled.div`

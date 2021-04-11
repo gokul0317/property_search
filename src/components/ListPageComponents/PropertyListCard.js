@@ -28,7 +28,7 @@ export default function PropertyListCard({ property, selectItem }) {
 const CardContainer = styled.div`
     flex: 1;
     justify-items: center;
-    max-width: 26vw;
+    max-width: 30vw;
 `;
 
 
@@ -38,6 +38,8 @@ const CardImage = styled.img`
     width: 350px;
     height: 200px;
     cursor: pointer;
+    background-attachment: cover;
+    transition: all ease-in;
     :hover {
        opacity: .6;
     }

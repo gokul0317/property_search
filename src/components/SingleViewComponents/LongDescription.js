@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import { trimDescription, formatDescription } from '../../helpers/index'
+import { trimDescription } from '../../helpers/index'
 
 export default function LongDescription({description}) {
     const formattedLongDescription = trimDescription(description, true)

@@ -23,7 +23,7 @@ const ListProperty = ({ fetchProperties }) => {
 
 const PageBodyContainer = styled.div`
   min-height: 50vh;  
-  margin: 10px;
+  margin: 20px 5%;
 `;
 
 

@@ -18,6 +18,7 @@ const ListPageHeadingContainer = styled.div`
 `;
 
 const PageHeading = styled.p`
-  font-size: 20px;
+  font-size: 24px;
+  font-weight: 700px;
   text-transform: capitalize;
 `;
